@@ -1,0 +1,60 @@
+body{
+    font-family: sans-serif;
+    margin: 20px;
+}
+ 
+h1{
+    text-align: center;
+}
+ 
+.input-grupo{
+    display: flex;
+    margin-bottom: 10px;
+}
+ 
+.input-grupo input{
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+ 
+.input-grupo button{
+    padding: 8px 12px;
+    background: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+ 
+ul{
+    list-style: none;
+    padding: 0;
+}
+ 
+li{
+    padding: 8px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    align-items: center;
+}
+ 
+li span{
+    flex: 1;
+}
+ 
+li button{
+    background: #f00;
+    color: #fff;
+    border: none;
+    padding: 4px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 8px;
+}
+ 
+li.completa span{
+    text-decoration: line-through;
+    color: #888;
+}
