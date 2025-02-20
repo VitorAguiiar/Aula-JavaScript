@@ -1,0 +1,6 @@
+Arrow Function
+const nomeDaArrowFunction = (parametro) => ` `;
+const criarSaudacao = (nome) => `Ola, ${nome}! Bem-indo(a)!`;
+Comentando:
+1. Cria Uma Arrow Chamada criarSaudacao.
+2. Esta Arrow Function recebe um parametro/argumento (nome) e retorna uma string com a saudacao
