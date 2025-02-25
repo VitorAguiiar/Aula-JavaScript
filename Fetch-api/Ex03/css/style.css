@@ -1,0 +1,9 @@
+#ListaUsuarios{
+    list-style: none;
+    padding: 0;
+}
+
+#ListaUsuarios li{
+    padding: 10px;
+    border-bottom: 1px solid #666;
+}
